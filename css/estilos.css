@@ -6,6 +6,10 @@ body {
     background-color: #FCCA46;
 }
 
+* {
+    margin: 0%;
+    padding: 0%;
+}
 a {
     text-decoration: none;
     color: green;
@@ -14,8 +18,19 @@ a {
 a:hover, a:active{ color:black; }
 
 
+ul li a {
+    font-size: 25px;
+}
 
-section h3:hover{     
+ul li a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+section div h2:hover {animation: animate__fadeInLeft;}
+
+section h3 a:hover{     
     animation-name: animate__pulse;
     font-size: 30px;
    }
@@ -58,3 +73,15 @@ h5 {
     transition: all 1s;
 }
 
+.img-fluid {
+    background-size: auto;
+    padding: 0%;
+}
+
+div h4 {
+    color: #FCCA46;
+}
+
+.stretched-link{
+    text-decoration: underline;
+}

@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>FlowerShop</title>
+    <title>Envio|FlowerShop</title>
 </head>
-  <body>
+    <body>
         <header>
             <div class="container-fluid bg-success">
                 <div class="container text-warning">
@@ -20,22 +20,69 @@
                             <a href="index.html"><img src="./images/Flowershop.png" alt="Logo Flowershop" width="80%"></a>
                         </div>
                         <div class="col-md-9 d-flex align-items-center justify-content-end">
-                            <ul class="nav">
-                                <li class="nav-item"><a class="nav-link active link-warning" aria-current="page" href="index.html">Inicio</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="nosotros.html">Nosotros</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="productos.html">Productos</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="envio.html">Envio</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="contacto.html">Contacto</a></li>
-                            </ul>
+                            <ul class="nav nav-pills">
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle link-warning" data-bs-toggle="dropdown" href="index.html" role="button" aria-expanded="false">Inicio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item link-warning" href="index.html">Inicio</a></li>
+                                    <li><a class="dropdown-item link-warning" href="nosotros.html">Nosotros</a></li>
+                                    <li><a class="dropdown-item link-warning" href="productos.html">Productos</a></li>
+                                    <li><a class="dropdown-item link-warning" href="envio.html">Envio</a></li>
+                                    <li><a class="dropdown-item link-warning" href="contacto.html">Contacto</a></li>
+                                </ul>
                         </div>
-                    </div>
-                </div> 
-            </div>
         </header>
         
+        <article>
+            <div class="container mt-2">
+                <div class="row g-0 bg-light position-relative">
+                    <div class="col-md-6 mb-md-0 p-md-4">
+                    <div class="mapouter ">
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=corrientes%20y%20callao&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe><a href="https://123movies-to.org"></a><br>
+                        </div></div>
+                    </div>
+                    <div class="col-md-6 p-4 ps-md-0">
+                    <h4 class="mt-0">¿Cómo funcionan?</h4>
+                    <p><h6 class="h4">Los envíos son únicamente nacionales, debido a que el cuidado de estas flores merece un trato de aire, agua y luz 
+                        que con la lejanía de un envío internacional sería imposible de lograr.
+                        Estamos trabajando como empresa para pronto llegar a la construcción 
+                        de nuevas sucursales en nuevos países para poder seguir disfrutando como comunidad.</h6></p>
+                    <a href="https://www.google.com.ar/maps/place/Corrientes+y+Callao/@-34.6046137,-58.3944828,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb00112384e3:0xd964cbbbbbfe3d1c!8m2!3d-34.6046181!4d-58.3922941" class="stretched-link">Cómo llegar</a>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex align-items-center justify-content-center bg-success mt-3 mb-4">
+                        <p><h3>Nuestras Redes Sociales</h3></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="container col-md-12 d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center">
+                    <p><a href="https://web.whatsapp.com/%F0%9F%8C%90/es" target="_blank"><img src="images/whatsapp.png" width="50px"></a></p>
+                        <div class="col-md-4 d-flex align-items-center">
+                            <p><a href="https://instagram.com/coderhouse?utm_medium=copy_link" target="_blank"><img src="images/instagram real.png" width="95px"></a></p>
+                                
+                            <div class="col-md-4 d-flex align-items-center">
+                                <p><a href="https://mercadolibre.com" target="_blank"><img src="images/mercado libre.png" width="58px"></a></p>
+                            </div>
+
+                        </div>
+                </div>        
+            </div>
+        </div>
+        
         <footer>
-            <a href="index.html"><h5> &nbsp FlowerShop 2022</h5></a>
-         </footer>  
+                <a href="index.html"><h5> &nbsp FlowerShop 2022</h5></a>
+        </footer>  
 
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>

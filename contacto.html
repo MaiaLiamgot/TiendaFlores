@@ -9,9 +9,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <title>FlowerShop</title>
+    <title>Contacto|FlowerShop</title>
 </head>
-  <body>
+    <body>
         <header>
             <div class="container-fluid bg-success">
                 <div class="container text-warning">
@@ -20,22 +20,83 @@
                             <a href="index.html"><img src="./images/Flowershop.png" alt="Logo Flowershop" width="80%"></a>
                         </div>
                         <div class="col-md-9 d-flex align-items-center justify-content-end">
-                            <ul class="nav">
-                                <li class="nav-item"><a class="nav-link active link-warning" aria-current="page" href="index.html">Inicio</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="nosotros.html">Nosotros</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="productos.html">Productos</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="envio.html">Envio</a></li>
-                                <li class="nav-item"><a class="nav-link link-warning" href="contacto.html">Contacto</a></li>
-                            </ul>
+                            <ul class="nav nav-pills">
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle link-warning" data-bs-toggle="dropdown" href="index.html" role="button" aria-expanded="false">Inicio</a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item link-warning" href="index.html">Inicio</a></li>
+                                    <li><a class="dropdown-item link-warning" href="nosotros.html">Nosotros</a></li>
+                                    <li><a class="dropdown-item link-warning" href="productos.html">Productos</a></li>
+                                    <li><a class="dropdown-item link-warning" href="envio.html">Envio</a></li>
+                                    <li><a class="dropdown-item link-warning" href="contacto.html">Contacto</a></li>
+                                </ul>
                         </div>
-                    </div>
-                </div> 
-            </div>
         </header>
+
+        <div class="container bg-light">
+            <div class="row col-md-12 m-3">
+                <blockquote class="blockquote d-flex align-items-center justify-content-center">
+                    <p>¿Quéres ser parte de nuestro equipo o te interesa recibir promos todos los meses?</p>
+                  </blockquote>
+            </div>
+        </div>
+        <section>
+            <div class="container bg-success">
+                <div class="row col-md-12">
+                    <form>
+                        <div class="mb-1">
+                        <label for="exampleInputName1" class="form-label"><strong>Tu Nombre</strong></label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Ingresa aca tu Nombre">
+                        </div>
+                        <div class="mb-1">
+                        <label for="exampleInputEmail1" class="form-label"><strong>Tu Email</strong></label>
+                        <input type="Email" class="form-control" id="exampleInputEmail1" placeholder="Ingresa aca tu Email">
+                        </div>
+                        <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1"><strong>Guardame</strong></label>
+                        </div>
+                        <select class="form-select mb-3" aria-label="Default select example">
+                            <option selected>Seleccione un género</option>
+                            <option value="1">Masculino</option>
+                            <option value="2">Femenino</option>
+                            <option value="3">Otro</option>
+                        </select>
+                        <button type="submit" class="btn btn-warning mb-3"><strong>Enviar</strong> </button>
+                    </form>
+                </div> 
+            </div>  
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 d-flex align-items-center justify-content-center bg-success mt-3 mb-4">
+                        <p><h3>Nuestras Redes Sociales</h3></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <div class="container col-md-12 d-flex justify-content-center">
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center">
+                    <p><a href="https://web.whatsapp.com/%F0%9F%8C%90/es" target="_blank"><img src="images/whatsapp.png" width="50px"></a></p>
+                        <div class="col-md-4 d-flex align-items-center">
+                            <p><a href="https://instagram.com/coderhouse?utm_medium=copy_link" target="_blank"><img src="images/instagram real.png" width="95px"></a></p>
+                                
+                            <div class="col-md-4 d-flex align-items-center">
+                                <p><a href="https://mercadolibre.com" target="_blank"><img src="images/mercado libre.png" width="58px"></a></p>
+                            </div>
+
+                        </div>
+                </div>        
+            </div>
+        </div>
 
         <footer>
             <a href="index.html"><h5> &nbsp FlowerShop 2022</h5></a>
-         </footer>  
+        </footer>  
 
         <script src="js/bootstrap.bundle.min.js"></script>
     </body>
