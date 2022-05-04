@@ -1,0 +1,97 @@
+@import "detalles.scss";
+
+body {
+    width: $cien;
+    height: $cien;
+    margin: $cero;
+    font-family: 'Source Sans Pro', sans-serif;
+    background-color: $color;
+}
+
+* {
+    margin: $cero;
+    padding: $cero;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+a:hover, a:active {
+    color: black;
+}
+
+ul li a {
+    font-size: 25px;
+}
+
+
+
+ul li a:hover {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+section div h2:hover {
+    animation: animate__fadeInLeft;
+}
+
+section h3 a:hover{    
+    animation-name: animate__pulse;
+    font-size: 30px;
+   }
+
+h3 {
+    align-items: center;
+    padding: 25px;
+}
+
+header div a img:hover {
+    padding: 7px;
+    transition: all 1s;
+}
+
+@mixin footer ($margin_top, $cinco, $verde) {
+    margin-top: $margin_top;
+    padding: $cinco;
+    background-color: $verde;
+}
+
+.infoFooter {
+    @include footer (13px, 5px, green);
+}
+
+h5 {
+    color: $color;
+}
+
+.h2 {
+    background-color: $color;
+    border-radius: 5px;
+}
+
+.col-sm {
+    background-color: #3F612D;
+    padding: 10px;
+    margin: $cero;
+}
+
+.col-sm img:hover {
+    margin: 5px;
+    transition: all 1s;
+}
+
+.img-fluid {
+    background-size: auto;
+    padding: $cero;
+}
+
+div h4 {
+    color: $color;
+}
+
+.stretched-link {
+    text-decoration: underline;
+}
