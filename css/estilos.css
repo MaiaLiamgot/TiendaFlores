@@ -21,8 +21,7 @@ ul li a {
 
 ul li a:hover {
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 20px; }
+  font-size: 23px; }
 
 section div h2:hover {
   animation: animate__fadeInLeft; }
@@ -69,3 +68,4 @@ div h4 {
 
 .stretched-link {
   text-decoration: underline; }
+
