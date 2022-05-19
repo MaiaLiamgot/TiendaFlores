@@ -17,7 +17,7 @@ a:hover, a:active {
   color: black; }
 
 ul li a {
-  font-size: 25px; }
+  font-size: 20px; }
 
 ul li a:hover {
   font-weight: bold;
@@ -69,3 +69,24 @@ div h4 {
 .stretched-link {
   text-decoration: underline; }
 
+.navbar {
+  border-radius: 4px;
+}
+
+.img-fluid {
+  width: 100%; 
+  height: auto;
+}
+
+.logoMobile {
+  display: flex;
+  justify-content:center;
+  margin: 10px;
+}
+
+
+@media screen and (max-width: 376px) {
+  .bienvenidos {
+    font-size: 5vw;
+  }
+}
