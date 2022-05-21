@@ -85,7 +85,7 @@ div h4 {
 }
 
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 388px) {
   .bienvenidos {
     font-size: 19px;
   }
